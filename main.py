@@ -59,13 +59,14 @@ def Schedule_entertainment():
         print("Sounds fun!\n")
     return ent
 
-
+#Begins the first setup
 print("Welcome to your Day Planner!")
 dest= schedule_destination()
 rest = schedule_restaurant()
 tran = schedule_tranport()
 ent =Schedule_entertainment()
 
+#confirms if user is happy with scheduled activities
 print(f"Alright, looks like we have a full day planned out! Let's see we got:")
 print(f"Destination: {dest}\nRestaurant: {rest}\nTransportation: {tran}\nentertainment: {ent}")
 choice =input("Does this look okay(y/n): ")
